@@ -4,8 +4,16 @@ using System.Text;
 
 namespace ConsoleAppInCore
 {
+	/// <summary>Class <c>www.bhindwarg.web.app</c> models a point in a two-dimensional
+	/// plane. That is documnet by Chanan BHindwar G</summary>
+	///
+
 	public class IndexerDemo
 	{
+		/// <summary>
+		/// This is example of Int Indexer Demo.
+		/// I have taken static data for example.
+		/// </summary>
 		public void IntIndexerDemo()
 		{
 			Employee Emp = new Employee(1001, "Chandan", "Developer", 25000, "Team Leader", "Noida");
@@ -46,6 +54,22 @@ namespace ConsoleAppInCore
 			Console.WriteLine("Emp1[6]: " + Emp1[6]);
 
 		}
+
+
+		/// <summary>
+		///<example> This is code example :
+		///<code>
+		///Employee EmpString = new Employee();
+		///EmpString["Eno"] = 11111;
+		///EmpString["Ename"] = "Babli";
+		///EmpString["job"] = "House Wife";
+		///EmpString["salary"] = 30000.00;
+		///EmpString["dname"] = "Helper";
+		///EmpString["location"] = "Lahan";
+		///EmpString["XXXXXXXXXXXXXX"] = "XXXXXXXXXXXXXXX";
+		///	</code>
+		///	</example>
+		/// </summary>
 
 		public void StrinIndexDemo()
 		{

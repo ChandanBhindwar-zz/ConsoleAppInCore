@@ -4,6 +4,7 @@ using System.Text;
 
 namespace ConsoleAppInCore
 {
+
 	public class Employee
 	{
 		int Eno;
