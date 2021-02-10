@@ -7,9 +7,12 @@ namespace ConsoleAppInCore
 		static void Main(string[] args)
 		{
 
-			IndexerDemo indexer = new IndexerDemo();
-			indexer.IntIndexerDemo();
-			indexer.StrinIndexDemo();
+			//IndexerDemo indexer = new IndexerDemo();
+			//indexer.IntIndexerDemo();
+			//indexer.StrinIndexDemo();
+
+			MyCollection myCollection = new MyCollection();
+			myCollection.ListExamleCreate();
 
 
 
